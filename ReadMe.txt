@@ -1,4 +1,4 @@
-Our project website is a online books shopping store
+This website is a online books shopping store
 1.Open the terminal and use command "go run main.go"
 2.Go to browser, url is http://localhost:8080/, the user will access the homepage.
 3.In the navigation bar,the user will see Login and Register. They can choose login if they have account, or register the new account.
