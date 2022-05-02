@@ -1,0 +1,307 @@
+
+
+.topnav {
+    margin-top:0px;
+    height: 72px; 
+    color: white;
+    width:100%;
+    padding-right:40px;
+    padding-left: 75%;
+    position: relative;
+    
+}
+
+    .topnav a {
+        
+        opacity: 1.0;
+        display: block;
+        float: left;
+        border-radius: 12px;
+        color: rgb(238,232,170);
+        text-align: center;
+        padding: 23px 26px;
+        text-decoration: none;
+        font-size: 20px;
+        opacity: 1;
+        font-weight: bold;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+    
+    .topnav a:hover 
+    {
+            color: rgb(238,232,170);
+            font-size: 23px;
+            border-radius: 13px;
+            background-color: rgba(0,0,0,.5);
+    }
+    .topnav a:active,a:visited {
+        border: 3px solid rgba(0,0,0,.2);
+        background-color: rgba(0,0,0,.5);
+    }
+
+    .grand {
+    position: absolute;
+    overflow: hidden;
+    left: 100px;
+    
+}
+    .grand img {
+        
+        border-radius: 9px;
+        height: 200px;
+        width: 200px;
+        margin-top: 3%;
+        box-shadow: 3px 7px 9px 2px rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.79);
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+    .grand img:hover{
+        height:210px;
+        width:220px;
+    }
+    .main {
+    margin-top:10%;
+    text-align:center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(0,0,0,.2);
+    border-radius: 9px;
+    height: 90%;
+    width: 80%;
+    margin-left: 12%;
+     color: rgb(238,232,170);
+    background-color: rgba(0,0,0,.5);
+    
+}
+.icon {
+            
+            margin-top: 15px;
+            height: 180px;
+            width: 180px;
+            display: inline-block;
+            text-align: center;
+            border-style: solid;
+            border-width: 3px;
+            border-color: rgba(0,0,0,.2);
+            border-radius: 9px;
+            background-color: rgba(0,0,0,.5);
+            color: rgb(238,232,170);
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -ms-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+            font-size:18px;
+        }
+
+        .icon:hover{
+            margin-top:45px;
+            height:178px;
+            width:208px;
+            font-size:21px;
+        }
+            .icon img {
+                height: 180px;
+                width: 180px;
+                
+            }
+            
+ 
+
+
+
+ .cheat a{
+    
+     background-color: rgba(0,0,0,.4);
+        opacity: 1.0;
+        display: block;
+        float: left;
+        margin-left: 40%;
+        margin-top: 2%;
+        color: rgb(238,232,170);
+        text-align: center;
+        padding: 23px 26px;
+        text-decoration: none;
+        font-size: 20px;
+        opacity: 1;
+        font-weight: bold;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        text-decoration: none;
+    }
+    
+    .cheat a:hover 
+    {
+            color: rgb(238,232,170);
+            font-size: 23px;
+            border-radius: 13px;
+            background-color: rgba(0,0,0,.5);
+            text-decoration: none;
+    }
+    .cheat a:visited,a:active,a:link{
+        background-color: rgba(0,0,0,.4);
+    color: rgb(238,232,170);
+    text-decoration: none;
+    
+    }
+   
+
+    
+    .copyright{
+        height:50%;
+    margin-top: 80%;
+    bottom:0;
+    background-color: rgba(0,0,0,.7);
+    text-align:center;
+    color:antiquewhite
+}
+    .copyright img {
+        height: 30px;
+        padding: 25px;
+        width: 30px;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+    .copyright img:hover{
+        height:40px;
+        width:40px;
+    }
+.golden{
+    color: rgb(238,232,170);
+    align-self: center;
+}
+.form 
+{
+            margin-top: 12%;
+            border-style: solid;
+            border-width: 3px;
+            border-color: rgba(0,0,0,.2);
+            border-radius: 9px;
+            margin-left: 32%;
+            width: 37%;
+            padding-left: 5%;
+            background-color: rgba(0,0,0,.5);
+            float: left;
+}
+.label {
+            color: aliceblue;
+            font-weight: 200;
+        }
+.input {
+            width: 40%;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .save{
+            margin-left: 10%;
+            width: 20%;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: red;
+            border-radius:10px;
+            color:white;
+            
+        }
+        .save:hover{
+            width:22%;
+            
+        }
+        
+        table{
+            margin-left: 15%;
+            border-radius: 12px;
+        }
+        .bigTD{
+            width:200px
+        }
+table,th,td{
+        width: 800px;
+         border: solid; 
+         border-color: rgb(238,232,170);
+         color:black;
+         background-color: white;
+         
+        }
+        .red{
+            color: red;
+        }
+        .orange{
+            color: orange;
+        }
+        .green{
+            color: green;
+        }
+        .gold{
+            margin-left: 10px;
+            color:gold;
+            font-weight: bold;
+        }
+        table img{
+            height: 180px;
+            width: 180px;
+        }
+
+        .products-container ion-icon{
+            width: 200%;
+            font-size: 25px;
+            margin-left: 10px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .cartproduct{
+            width: 100px;
+        
+        }
+        .cartprice{
+            width: 100px;
+        
+        }
+        .cartquantity{
+            width: 100px;
+        } 
+        .carttitle{
+            width: 300px;
+        }
+        .carttotal{
+            width: 100px;
+        }
+        .cartdelete{
+            width: 100px;
+
+        }
+        .TotalPrice{
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            padding: 10px 0;
+        }
+.buy{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;  
+}
+.cartdelete ion-icon{
+    font-size: 25px;
+    color: #00b0c4;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
